@@ -113,7 +113,7 @@ header img {
   
   position: fixed;
   
-  z-index: 10000;
+  z-index: 1000;
   inset: 0 0 0 80%;
 
   flex-direction: column;
@@ -129,6 +129,7 @@ header img {
 
 .primary-navigation a {
   color: #000000;
+  text-decoration: none;
 }
 
 .primary-navigation[data-visible="true"] {
