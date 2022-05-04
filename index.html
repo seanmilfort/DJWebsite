@@ -6,50 +6,124 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>DJ SEANZIE</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="js/resume.js" defer></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E31YVMYNX9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-E31YVMYNX9');
+</script>
 
 </head>
 
 <body>
 
   <!-- ***********************  BODY *********************** -->
-  <header>
+  <header class="primary-header flex" id="primary-header">
 
+    <div>
+      <img src="/images/seanzie_logo.png" alt="Logo">
+    </div>
+    <nav>
+      <div class="social-media-nav ">
+
+        <ul class="primary-navigation flex" id="primary-navigation" data-visible="false">
+          <li>
+            <a href="#home-section">Home</a>
+          </li>
+          <li>
+            <a href="#mixes-section">Mixes</a>
+          </li>
+          <li>
+            <a href="#aboutme-section">About Me</a>
+          </li>
+          <li>
+            <a href="#contact-me-section">Contact Me</a>
+          </li>
+        </ul>
+
+        <ul class="social-media-list">
+          <li><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/djseanzie"><i
+                class="fa-brands fa-twitter"></i></a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://mixcloud.com/djseanzie"><i
+                class="fa-brands fa-mixcloud"></i></a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://instagram.com/djseanzie"><i
+                class="fa-brands fa-instagram"></i></a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://facebook.com/djseanzie"><i
+                class="fa-brands fa-facebook"></i></a></li>
+        </ul>
+
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false"><span
+            class="sr-only">Menu</span></button>
+      </div>
+
+
+    </nav>
+    </div>
   </header>
   <main>
     <!-- *********************** HOME SECTION *********************** -->
-    <section class="main-section home-section color-scheme">
-      <div class="content-wrap">
+    <section class="main-section home-section color-scheme" id="home-section">
+      <div data-aos="fade-in" class="content-wrap">
         <img src="/images/seanzie_logo.png" alt="Seanzie Logo" />
         <h2>Welcome</h2>
       </div>
     </section>
 
     <!-- *********************** MIXES SECTION *********************** -->
-    <section class="main-section mixes-section color-scheme">
-      <div class="content-wrap">
+    <section class="main-section mixes-section color-scheme" id="mixes-section">
+      <div data-aos="fade-up" class="content-wrap">
         <h2>MIXES</h2>
-        <p>Check out the latest mixes from my mixcloud!</p>
+        <p>Check out the latest mix from my mixcloud!</p>
+        <div class="mixes">
+          <iframe width="100%" height="120"
+            src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2Fdjseanzie%2Fseanzie-radio-episode-8-valentines-day-hot-girl-shit-mix%2F"
+            frameborder="0"></iframe>
+        </div>
+    </section>
+
+    <!-- *********************** ABOUT ME SECTION *********************** -->
+    <section class="main-section aboutme-section color-scheme" id="aboutme-section">
+      <div class="content-wrap">
+        <h2 data-aos="fade-up">About Me</h2>
+        <section class="about-details">
+          <div class="overlapping-grid">
+            <img data-aos="fade-left" class="grid-image" src="/images/ProfilePicture.jpg" alt="Seanzie Picture" />
+            <h3 data-aos="fade-right"><span>Always bringing the good vibes!</span></h3>
+          </div>
+          <p data-aos="fade-up">Seanzie is a DJ from the Central Jersey/Philadelphia area! He started to DJ during his undergrad in college
+            and has been doing it ever since! While he does specialize in the club/bar scene, he has a versatile
+            knowledge base of music that is perfect for any occasion. You can expect a high energy and great time with
+            Seanzie. For him, DJing is all about having a good time and bringing the energy for everyone else. When he
+            is not being a DJ, Seanzie is working in IT and also working as a developer.</p>
+        </section>
       </div>
     </section>
 
-        <!-- *********************** ABOUT ME SECTION *********************** -->
-        <section class="main-section aboutme-section color-scheme">
-          <div class="content-wrap">
-            <h2>About Me</h2>
-            <section class="about-details">
-              <div class="overlapping-grid">
-                <img class="grid-image" src="/images/ProfilePicture.jpg" alt="Seanzie Picture" />
-                <h3><span>Always bringing the good vibes!</span></h3>
-              </div>
-              <p>*Insert About Me Information*</p>
-            </section>
-          </div>
-        </section>
+    <!-- *********************** CONTACT SECTION *********************** -->
+    <section class="main-section contact-me-section color-scheme" id="contact-me-section">
+      <div data-aos="fade-in" class="content-wrap">
+        <h2>Contact Me</h2>
+        <p>For all business inquries, please contact <a href="mailto: djseanzie@gmail.com">djseanzie@gmail.com</a></p>
+        <div class="mixes">
+        </div>
+    </section>
+
 
     <!-- ***************** FOOTER  ***************** -->
     <footer>
