@@ -4,17 +4,17 @@ to = "https://djseanzie.club/:splat"
 status = 301
 force = true
 [[redirects]]
-from = "https://djseanzie.com/*"
+from = "https://www.djseanzie.com/*"
 to = "https://djseanzie.club/:splat"
 status = 301
 force = true
 [[redirects]]
-from = "https://djseanzie.com/*"
-to = "https://djseanzie.club/:splat"
+from = "https://links.djseanzie.com/*"
+to = "https://links.djseanzie.club/:splat"
 status = 301
 force = true
 [[redirects]]
-from = "https://djseanzie.com/*"
-to = "https://djseanzie.club/:splat"
+from = "https://www.links.djseanzie.com/*"
+to = "https://links.djseanzie.club/:splat"
 status = 301
 force = true
