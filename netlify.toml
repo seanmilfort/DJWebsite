@@ -25,11 +25,11 @@ status = 301
 force = true
 [[redirects]]
 from = "https://mixes.djseanzie.com/*"
-to = "https://www.mixcloud.com/djseanzie/"
+to = "https://www.mixcloud.com/djseanzie"
 status = 301
 force = true
 [[redirects]]
 from = "https://mixes.djseanzie.club/*"
-to = "https://www.mixcloud.com/djseanzie/"
+to = "https://www.mixcloud.com/djseanzie"
 status = 301
 force = true
