@@ -14,87 +14,12 @@ to = "https://links.djseanzie.club/:splat"
 status = 301
 force = true
 [[redirects]]
-from = "https://www.links.djseanzie.com/*"
-to = "https://links.djseanzie.club/:splat"
-status = 301
-force = true
-[[redirects]]
 from = "https://spotify.djseanzie.com/*"
-to = "https://open.spotify.com/playlist/6dcgwhMSuUCO0U08QEcGxr?si=0419bc8c5cc74ec0"
-status = 301
-force = true
-[[redirects]]
-from = "https://www.spotify.djseanzie.com/*"
 to = "https://open.spotify.com/playlist/6dcgwhMSuUCO0U08QEcGxr?si=0419bc8c5cc74ec0"
 status = 301
 force = true
 [[redirects]]
 from = "https://spotify.djseanzie.club/*"
 to = "https://open.spotify.com/playlist/6dcgwhMSuUCO0U08QEcGxr?si=0419bc8c5cc74ec0"
-status = 301
-force = true
-[[redirects]]
-from = "https://www.spotify.djseanzie.club/*"
-to = "https://open.spotify.com/playlist/6dcgwhMSuUCO0U08QEcGxr?si=0419bc8c5cc74ec0"
-status = 301
-force = true
-[[redirects]]
-from = "https://mixes.djseanzie.com/*"
-to = "https://www.mixcloud.com/djseanzie/"
-status = 301
-force = true
-[[redirects]]
-from = "https://www.mixes.djseanzie.com/*"
-to = "https://www.mixcloud.com/djseanzie/"
-status = 301
-force = true
-[[redirects]]
-from = "https://mixes.djseanzie.club/*"
-to = "https://www.mixcloud.com/djseanzie/"
-status = 301
-force = true
-[[redirects]]
-from = "https://www.mixes.djseanzie.club/*"
-to = "https://www.mixcloud.com/djseanzie/"
-status = 301
-force = true
-[[redirects]]
-from = "https://live.djseanzie.club/*"
-to = "https://www.mixcloud.com/live/djseanzie/"
-status = 301
-force = true
-[[redirects]]
-from = "https://www.live.djseanzie.club/*"
-to = "https://www.mixcloud.com/live/djseanzie/"
-status = 301
-force = true
-[[redirects]]
-from = "https://live.djseanzie.com/*"
-to = "https://www.mixcloud.com/live/djseanzie/"
-status = 301
-force = true
-[[redirects]]
-from = "https://www.live.djseanzie.com/*"
-to = "https://www.mixcloud.com/live/djseanzie/"
-status = 301
-force = true
-[[redirects]]
-from = "https://newestmix.djseanzie.club/*"
-to = "https://www.mixcloud.com/djseanzie/seanzie-radio-episode-10/"
-status = 301
-force = true
-[[redirects]]
-from = "https://www.newestmixes.djseanzie.club/*"
-to = "https://www.mixcloud.com/djseanzie/seanzie-radio-episode-10/"
-status = 301
-force = true
-[[redirects]]
-from = "https://newestmix.djseanzie.com/*"
-to = "https://www.mixcloud.com/djseanzie/seanzie-radio-episode-10/"
-status = 301
-force = true
-[[redirects]]
-from = "https://www.newestmixes.djseanzie.com/*"
-to = "https://www.mixcloud.com/djseanzie/seanzie-radio-episode-10/"
 status = 301
 force = true
