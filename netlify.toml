@@ -59,6 +59,16 @@ to = "https://www.mixcloud.com/live/djseanzie/"
 status = 301
 force = true
 [[redirects]]
+from = "https://live.djseanzie.com/*"
+to = "https://www.mixcloud.com/live/djseanzie/"
+status = 301
+force = true
+[[redirects]]
+from = "https://www.live.djseanzie.com/*"
+to = "https://www.mixcloud.com/live/djseanzie/"
+status = 301
+force = true
+[[redirects]]
 from = "https://newestmix.djseanzie.club/*"
 to = "https://www.mixcloud.com/djseanzie/seanzie-radio-episode-10/"
 status = 301
