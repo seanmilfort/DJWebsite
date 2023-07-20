@@ -34,12 +34,12 @@ to = "https://music.youtube.com/playlist?list=PL3V_k944A90dlS0fUt3AlcoFfiFd_fYnz
 status = 301
 force = true
 [[redirects]]
-from = "https://appleplaylist.djseanzie.com/*"
+from = "https://applemusic.djseanzie.com/*"
 to = "https://music.apple.com/us/playlist/seanzies-club-hits/pl.u-Ymb0okRuVGlyg"
 status = 301
 force = true
 [[redirects]]
-from = "https://appleplaylist.djseanzie.club/*"
+from = "https://applemusic.djseanzie.club/*"
 to = "https://music.apple.com/us/playlist/seanzies-club-hits/pl.u-Ymb0okRuVGlyg"
 status = 301
 force = true
