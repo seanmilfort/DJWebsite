@@ -54,6 +54,16 @@ to = "https://www.mixcloud.com/djseanzie"
 status = 301
 force = true
 [[redirects]]
+from = "https://soundcloud.djseanzie.com/*"
+to = "https://www.soundcloud.com/djseanzie"
+status = 301
+force = true
+[[redirects]]
+from = "https://soundcloud.djseanzie.club/*"
+to = "https://www.soundcloud.com/djseanzie"
+status = 301
+force = true
+[[redirects]]
 from = "https://live.djseanzie.com/*"
 to = "https://www.mixcloud.com/live/djseanzie"
 status = 301
@@ -65,11 +75,11 @@ status = 301
 force = true
 [[redirects]]
 from = "https://newmix.djseanzie.com/*"
-to = "https://www.mixcloud.com/djseanzie/seanzie-radio-episode-12/"
+to = "https://www.mixcloud.com/djseanzie/seanzie-radio-episode-13/"
 status = 301
 force = true
 [[redirects]]
 from = "https://newmix.djseanzie.club/*"
-to = "https://www.mixcloud.com/djseanzie/seanzie-radio-episode-12/"
+to = "https://www.mixcloud.com/djseanzie/seanzie-radio-episode-13/"
 status = 301
 force = true
