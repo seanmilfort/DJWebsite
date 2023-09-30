@@ -168,7 +168,9 @@ header img {
 
 /*Mixes Section
 ---------------------------------------*/
-
+.mixes-section a {
+  color: #000000;
+}
 
 /*About Me Section
 ---------------------------------------*/
