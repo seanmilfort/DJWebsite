@@ -5,9 +5,9 @@
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
-  /* scroll-snap-type: y mandatory;
-  overflow-y: scroll;
-  scroll-padding: 40px; */
+  overflow-x: hidden;
+  max-width: 100%;
+
 }
 
 *,
@@ -227,6 +227,14 @@ footer div {
     margin-left: auto;
     margin-right: auto;
   }
+
+  .social-list {
+    visibility: visible;
+  }
+
+  .social-link-buttton {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 699px) {
@@ -247,6 +255,10 @@ footer div {
 
   .primary-navigation {
     inset: 0 0 0 60%;
+  }
+
+  .social-list {
+    visibility: hidden;
   }
 }
 
